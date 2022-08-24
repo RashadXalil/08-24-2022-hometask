@@ -1,0 +1,71 @@
+@import "../utils/reset";
+@import "../utils/colors";
+
+.task-3 {
+  width: 100%;
+  &__header {
+    border: 2px solid black;
+    &__navigation {
+      width: 50%;
+      margin: 0 auto;
+      &__links {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          font-weight: bold;
+          text-transform: uppercase;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  &__main {
+    width: 95%;
+    margin: 50px auto;
+    &__filter {
+      &__items {
+        &__item {
+          margin-bottom: 10px;
+          span {
+            margin-left: 5px;
+            color: grey;
+          }
+        }
+      }
+    }
+    &__card {
+        margin-bottom: 30px;
+      &__image {
+        img {
+          width: 100%;
+        }
+      }
+      &__body {
+        width: 90%;
+        margin: 0 auto;
+        &__title__price {
+          display: flex;
+          margin-top: 20px;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          &--title {
+          }
+          &--price {
+          }
+        }
+        &__category{
+            margin-bottom: 20px;
+            color: grey;
+        }
+        &__stock{
+            color: grey;
+        }
+      }
+    }
+  }
+}

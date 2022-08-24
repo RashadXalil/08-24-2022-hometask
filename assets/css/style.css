@@ -5,8 +5,7 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
+  flex-wrap: wrap; }
 
 .col-12 {
   width: 100%;
@@ -16,20 +15,18 @@
 .col-6 {
   width: 50%;
   align-items: center;
-  justify-content: center;
-  text-align: center; }
+  justify-content: center; }
 
 .col-3 {
   width: 23%;
   align-items: center;
-  justify-content: center;
-  text-align: center; }
+  margin-right: 20px;
+  justify-content: center; }
 
 .col-4 {
   width: 33.3%;
   align-items: center;
-  justify-content: center;
-  text-align: center; }
+  justify-content: center; }
 
 html {
   scroll-behavior: smooth; }
@@ -503,3 +500,172 @@ table {
         list-style: disc; }
         .task-2__main__project__features__list li {
           margin-bottom: 5px; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.task-3 {
+  width: 100%; }
+  .task-3__header {
+    border: 2px solid black; }
+    .task-3__header__navigation {
+      width: 50%;
+      margin: 0 auto; }
+      .task-3__header__navigation__links {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .task-3__header__navigation__links li {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          font-weight: bold;
+          text-transform: uppercase;
+          justify-content: center; }
+  .task-3__main {
+    width: 95%;
+    margin: 50px auto; }
+    .task-3__main__filter__items__item {
+      margin-bottom: 10px; }
+      .task-3__main__filter__items__item span {
+        margin-left: 5px;
+        color: grey; }
+    .task-3__main__card {
+      margin-bottom: 30px; }
+      .task-3__main__card__image img {
+        width: 100%; }
+      .task-3__main__card__body {
+        width: 90%;
+        margin: 0 auto; }
+        .task-3__main__card__body__title__price {
+          display: flex;
+          margin-top: 20px;
+          justify-content: space-between;
+          margin-bottom: 20px; }
+        .task-3__main__card__body__category {
+          margin-bottom: 20px;
+          color: grey; }
+        .task-3__main__card__body__stock {
+          color: grey; }
