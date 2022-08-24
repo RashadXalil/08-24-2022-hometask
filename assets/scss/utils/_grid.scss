@@ -11,15 +11,26 @@
 }
 .col-12 {
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .col-6 {
   width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .col-3 {
   width: 23%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .col-4 {
   width: 33.3%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 html {
   scroll-behavior: smooth;
