@@ -1,7 +1,7 @@
 @import "../utils/reset";
-
+@import "../utils/colors";
 .app__dashboard {
-  background-color: #f2f2f2;
+  background-color: $dashboard--bg--color;
   height: 100vh;
   width: 100%;
   &__header {
@@ -20,9 +20,9 @@
       i {
         font-size: 24px;
         margin-right: 20px;
-        color: #fbce00;
+        color: $dashboard--icon--color;
       }
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      box-shadow: $dashboard--item--box--shadow;
       text-decoration: none;
       display: block;
       padding: 20px;
